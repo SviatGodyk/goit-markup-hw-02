@@ -25,9 +25,10 @@ button {
 /* ========== HEADER STYLES ========== */
 .logo {
   color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -60,11 +61,14 @@ button {
   color: #404bbf;
 }
 /* ========== HERO STYLES ========== */
+.benefits {
+  background-color: #2e2f42;
+}
 .main-title {
   color: #fff;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -72,6 +76,8 @@ button {
   color: #fff;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background: #4d5ae5;
 }
 .order-service-btn:hover,
@@ -84,6 +90,8 @@ button {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .benefits-list-text {
   color: #434455;
@@ -92,12 +100,19 @@ button {
   letter-spacing: 0.02em;
 }
 /* ========== TEAM STYLES ========== */
+.team {
+  background-color: #f4f4fd;
+}
 .section-title {
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
+}
+.team-list-item {
+  background-color: #ffffff;
 }
 .team-fullname {
   color: #2e2f42;
@@ -119,8 +134,9 @@ button {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
 }
 portfolio-list-title {
@@ -137,11 +153,15 @@ portfolio-list-title {
   letter-spacing: 0.02em;
 }
 /* ========== FOOTER STYLES ========== */
+.footer {
+  color: #2e2f42;
+}
 .logo-footer {
   color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
