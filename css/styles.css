@@ -61,7 +61,7 @@ button {
   color: #404bbf;
 }
 /* ========== HERO STYLES ========== */
-.benefits {
+.hero {
   background-color: #2e2f42;
 }
 .main-title {
@@ -86,6 +86,9 @@ button {
   color: #fff;
 }
 /* ========== BENEFITS STYLES ========== */
+.benefits {
+  background-color: #2e2f42;
+}
 .title-benefits {
   color: #2e2f42;
   font-weight: 500;
@@ -139,7 +142,7 @@ button {
   text-transform: capitalize;
   text-align: center;
 }
-portfolio-list-title {
+.portfolio-list-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -154,7 +157,7 @@ portfolio-list-title {
 }
 /* ========== FOOTER STYLES ========== */
 .footer {
-  color: #2e2f42;
+  background-color: #2e2f42;
 }
 .logo-footer {
   color: #4d5ae5;
